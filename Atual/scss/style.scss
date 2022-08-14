@@ -33,12 +33,11 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background: $darken;
+	background: $white;
 	font-size: 15px;
 	line-height: 1.8;
 	font-weight: 300;
 	color: lighten($black,50%);
-	background: url(../images/bg_4.jpg) no-repeat fixed;
 	background-size: cover;
 	&.menu-show {
 		overflow: hidden;
@@ -72,10 +71,10 @@ h1, h2, h3, h4, h5,
 }
 
 .ftco-navbar-light {
-	background: $darken!important;
+	background: $white!important;
 	z-index: 3;
 	@include media-breakpoint-down(md) {
-		background: $black!important;
+		background: $white!important;
 		position: relative;
 	}
 	.navbar-brand {
