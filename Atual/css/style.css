@@ -7807,7 +7807,7 @@ h1, h2, h3, h4, h5,
   margin: 0 auto;
   position: relative;
   z-index: 0;
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: rgb(255, 255, 255);
 border-radius: 50%; }
   .services .icon:after {
     position: absolute;
@@ -7863,6 +7863,7 @@ border-radius: 50%; }
       font-size: 20px; }
     .services-wrap .text .price {
       font-size: 16px;
+      font-weight: bolder;
       margin-bottom: 0; }
       .services-wrap .text .price span {
         color: var(--cor1); }
