@@ -8619,7 +8619,7 @@ textarea.form-control {
   position: relative; }
 
 .contact-form .form-control {
-  border: 1px solid var(--cor1) !important;
+  border: 0.8px solid var(--cor1) !important;
   border-bottom: 1px solid var(--cor1) !important;
   height: 58px !important;
   padding-left: 10px;
