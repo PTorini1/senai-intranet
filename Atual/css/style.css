@@ -1567,9 +1567,9 @@ pre {
   font-size: 1rem;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: black;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid black;
   border-radius: 0.25rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -1586,8 +1586,8 @@ pre {
     border: 0; }
   .form-control:focus {
     color: #495057;
-    background-color: #fff;
-    border-color: #eaf8fd;
+    background-color: black;
+    border-color: black;
     outline: 0;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(120, 213, 239, 0.25);
     box-shadow: 0 0 0 0.2rem rgba(120, 213, 239, 0.25); }
@@ -1604,7 +1604,7 @@ pre {
     color: #6c757d;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
-    background-color: #e9ecef;
+    background-color: black;
     opacity: 1; }
 
 select.form-control:not([size]):not([multiple]) {
@@ -1612,7 +1612,7 @@ select.form-control:not([size]):not([multiple]) {
 
 select.form-control:focus::-ms-value {
   color: #495057;
-  background-color: #fff; }
+  background-color: black; }
 
 .form-control-file,
 .form-control-range {
@@ -7953,7 +7953,7 @@ border-radius: 50%; }
     .appointment {
       padding: 7% 12% 7% 5% !important; } }
   .appointment h3 {
-    color: #fff; }
+    color: black; }
 
 .appointment-form .form-group {
   position: relative;
@@ -7968,7 +7968,7 @@ border-radius: 50%; }
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
     .appointment-form .form-group .icon span {
-      color: white !important; }
+      color: black !important; }
   .appointment-form .form-group .select-wrap, .appointment-form .form-group .input-wrap {
     position: relative; }
     .appointment-form .form-group .select-wrap select, .appointment-form .form-group .input-wrap select {
