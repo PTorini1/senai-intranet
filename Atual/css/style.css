@@ -1,10 +1,10 @@
-/*!
+/*
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --cor1:#fa4747;
   --cor2:#75040B;
   --cor3:#F50717;
@@ -4704,6 +4704,7 @@ button.close {
 .carousel-item {
   position: relative;
   display: none;
+  height: 50vh;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -7742,12 +7743,15 @@ h1, h2, h3, h4, h5,
     display: block; }
     @media (max-width: 767.98px) {
       .ftco-about .one-half.img {
-        height: 300px; } }
+        height: 300px; } 
+        }
+
+
 
 .ftco-services {
   background: url(../images/menu-vermelho.jpg);
   color: white;
-  padding: 150px !important;
+  padding-bottom: 150px !important ;
   }
   .ftco-services .overlay {
     position: absolute;
@@ -8157,6 +8161,10 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden; }
+
+.cima{
+  margin-top: -30px;
+}
 
 .bg-primary {
   background: var(--cor2) !important; }
@@ -8948,4 +8956,20 @@ textarea.form-control {
 
   .dia{
     text-align: right;
+  }
+
+  @media(max-width: 1000px){
+    .ftco-services {
+      background: url(../images/menu-vermelho.jpg);
+      color: white;
+      height: 85vh;
+      padding-bottom: 150px !important ;
+      }
+      .not1{
+        background-position: center;
+      }
+  }
+
+  .carousel.slide{
+    margin-top: 10px;
   }
