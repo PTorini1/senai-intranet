@@ -7485,13 +7485,13 @@ h1, h2, h3, h4, h5,
     right: -25px; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 60vh;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 750px;
+      height: 60vh;
       position: relative;
       z-index: 0; }
       .owl-carousel.home-slider .slider-item .overlay {
@@ -7504,7 +7504,7 @@ h1, h2, h3, h4, h5,
         opacity: .5; }
       .owl-carousel.home-slider .slider-item .slider-text {
         color: #fff;
-        height: 750px;
+        height: 60vh;
         text-align: right; }
         @media (min-width: 992px) {
           .owl-carousel.home-slider .slider-item .slider-text .order-md-last {
@@ -7747,6 +7747,7 @@ h1, h2, h3, h4, h5,
 .ftco-services {
   background: url(../images/menu-vermelho.jpg);
   color: white;
+  padding: 150px !important;
   }
   .ftco-services .overlay {
     position: absolute;
