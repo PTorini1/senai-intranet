@@ -8444,7 +8444,8 @@ textarea.form-control {
       right: 0;
       bottom: 0;
       content: '';
-      bordeR: 1px solid var(--cor1);
+      bordeR: 1px solid white;
+      border-radius: 20pc;
       z-index: -1;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
@@ -8473,7 +8474,7 @@ textarea.form-control {
     -webkit-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     transform: rotate(135deg);
-    background: var(--cor1); }
+    background: white; }
   @media (max-width: 991.98px) {
     .ftco-counter .counter-wrap {
       margin-bottom: 40px !important; } }
