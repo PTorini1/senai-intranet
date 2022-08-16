@@ -7746,7 +7746,6 @@ h1, h2, h3, h4, h5,
 
 .ftco-services {
   background: url(../images/menu-vermelho.jpg);
-
   color: white;
   }
   .ftco-services .overlay {
@@ -8177,7 +8176,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 20px 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
