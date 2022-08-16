@@ -37,7 +37,6 @@ body {
 	font-size: 15px;
 	line-height: 1.8;
 	font-weight: 300;
-	color: lighten($black,50%);
 	background-size: cover;
 	&.menu-show {
 		overflow: hidden;
@@ -760,7 +759,6 @@ h1, h2, h3, h4, h5,
 		display: block;
 	}
 	.text{
-		background: rgba(0,0,0,.2);
 		position: relative;
 		h3{
 			font-size: 20px;
@@ -1188,22 +1186,12 @@ textarea.form-control {
 	.ftco-footer-widget {
 		h2 {
 			font-weight: normal;
-			color: $white;
 			margin-bottom: 40px;
 			font-size: 16px;
 			font-weight: 400;
 			position: relative;
 			text-transform: uppercase;
 			letter-spacing: 1px;
-		}
-		ul{
-			li{
-				a{
-					span{
-						color: $white;
-					}
-				}
-			}
 		}
 		.btn-primary{
 			background: $white !important;
@@ -1212,15 +1200,6 @@ textarea.form-control {
 				background: $white;
 				border: 2px solid $white !important;
 			}
-		}
-	}
-	p {
-		color: rgba($white, .7);
-	}
-	a {
-		color: rgba($white, .7);
-		&:hover {
-			color: $white;
 		}
 	}
 	.ftco-heading-2 {
@@ -1233,13 +1212,6 @@ textarea.form-control {
 			.heading {
 				font-size: 16px;
 				font-weight: 300;
-				a {
-					color: rgba(255,255,255,.9);
-					&:hover, &:active, &:focus {
-						color: $primary;
-					}
-				}
-			}
 			.meta {
 				> div {
 					display: inline-block;
@@ -1274,9 +1246,6 @@ textarea.form-control {
 				top: 50%;
 				left: 50%;
 				transform: translate(-50%, -50%);
-			}
-			&:hover {
-				color: $white;
 			}
 		}
 	}
