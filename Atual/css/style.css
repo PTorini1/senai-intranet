@@ -7980,13 +7980,17 @@ span.text{
   color: black !important;
 }
 
-.icon-instagram:hover{
-  transform: translateX(20px);
-  transition: .1s;
-}
-
 .ftco-footer-social.list-unstyled.float-md-left.float-lft.mt-5{
   margin: auto;
+}
+
+.icone2{
+  width: 60px;
+  margin-bottom: -50px;
+}
+
+a:hover{
+  color: var(--cor1);
 }
 
 .appointment-form .form-control {
@@ -8562,7 +8566,7 @@ textarea.form-control {
     line-height: 1.5;
     margin-bottom: 15px; }
   .block-23 ul li span {
-    color: rgba(255, 255, 255, 0.7); }
+    color: black; }
   .block-23 ul li .icon, .block-23 ul li .text {
     display: table-cell;
     vertical-align: top; }
@@ -8570,7 +8574,7 @@ textarea.form-control {
     width: 40px;
     font-size: 18px;
     padding-top: 2px;
-    color: white; }
+    color: black; }
 
 .block-6 {
   margin-bottom: 40px; }
