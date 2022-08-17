@@ -484,7 +484,8 @@ pre {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto; 
+  display:block;}
 
 .row {
   display: -webkit-box;
@@ -7677,15 +7678,15 @@ h1, h2, h3, h4, h5,
         background: var(--cor4);
         border-color: var(--cor1);
         color: #000; }
-  .btn.btn-outline-black {
-    border-color: black;
-    background: none;
+  .btn.btn-outline-red {
+    border-color: #fa4747;
+    background: white;
     border-width: 1px;
-    color: #000; }
-    .btn.btn-outline-black:hover, .btn.btn-outline-black:focus, .btn.btn-outline-black:active {
-      background: #000;
-      border-color: #000;
-      color: #fff; }
+    color: black; }
+    .btn.btn-outline-red:hover, .btn.btn-outline-red:focus, .btn.btn-outline-red:active {
+      background: #fa4747;
+      border-color: #fa4747;
+      color: white; }
 
 .ftco-intro .wrap {
   width: 100%; }
