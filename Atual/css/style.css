@@ -3758,6 +3758,19 @@ input[type="button"].btn-block {
 .card-columns .card {
   margin-bottom: 0.75rem; }
 
+.vermelho{
+  color: black;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.075) !important; 
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.356);
+}
+
+footer a{
+  color: black !important;
+}
+
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
@@ -8951,6 +8964,7 @@ textarea.form-control {
 
     ::-webkit-scrollbar{
       background-color: white;
+      height: 0px;
   }
 
   ::-webkit-scrollbar-thumb{
@@ -8971,4 +8985,52 @@ textarea.form-control {
       .not1{
         background-position: center;
       }
+  }
+
+  .alinhado{
+    display: block !important;
+    margin: 0 auto !important; 
+    text-align: center;
+    width:100% !important;
+    justify-content: center !important;
+  }
+
+  @media (max-width:1000px){
+    .alinhado{
+      margin-top: 20px !important;
+    }
+  }
+
+  .col-md-7.heading-section.ftco-animate.text-center.fadeInUp.ftco-animated{
+    width: 100vw !important;
+  }
+
+  .links{
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+  }
+
+  .links span{
+    margin: 10px;
+  }
+
+  .links h6{
+    width: 50%;
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
+
+  .links a{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .linha{
+    display: block;
+    margin-left: auto;
+    width: 50%;
+    text-align: right;
   }
