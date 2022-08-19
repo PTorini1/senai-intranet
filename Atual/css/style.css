@@ -7286,7 +7286,7 @@ a {
   transition: .3s all ease;
   color: var(--cor4); }
   a:hover, a:active, a:focus {
-    color: var(--cor4);
+    color: var(--cor1);
     outline: none !important;
     text-decoration: none !important; }
 
@@ -8968,7 +8968,7 @@ textarea.form-control {
   }
 
   ::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(white, var(--cor1));
+    background-image: linear-gradient(var(--cor2), var(--cor1));
   }
 
   .dia{
@@ -9008,7 +9008,7 @@ textarea.form-control {
   .links{
     margin: auto;
     text-align: center;
-    width: 80vw;
+    width: 50vw;
   }
 
   .links span{
@@ -9016,15 +9016,8 @@ textarea.form-control {
   }
 
   .links h6{
-    width: 50%;
     margin: auto;
     margin-top: -50px;
-    margin-bottom: 30px;
-  }
-
-  .links a{
-    width: 50%;
-    margin: auto;
     margin-bottom: 30px;
   }
 
@@ -9033,4 +9026,28 @@ textarea.form-control {
     margin-left: auto;
     width: 50%;
     text-align: right;
+  }
+
+  .btn-danger{
+    text-align: center;
+    background-color: grey;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .linha2{
+    width: 10px;
+    border-bottom: 10px solid black;
+  }
+
+  .lapis{
+    padding-top: 20vh;
+    height: 70vh !important;
+    line-height: 70vh;
+  }
+
+  .lapis p {
+    margin-top: -40%;
   }
