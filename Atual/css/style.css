@@ -9051,3 +9051,8 @@ textarea.form-control {
   .lapis p {
     margin-top: -40%;
   }
+
+  .box-shadow-in{
+    box-shadow: inset -2px 2px 10px black;
+    background-attachment: fixed;
+  }
