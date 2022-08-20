@@ -1,4 +1,5 @@
-const date = new Date();
+
+
 
 let dia = document.getElementsByClassName('dia');
 let icone = document.getElementsByName('icone-aniversario');

@@ -18,8 +18,6 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 
-	<link rel="stylesheet" href="css/aos.css">
-
 	<link rel="stylesheet" href="css/ionicons.min.css">
 
 	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
@@ -311,86 +309,14 @@
 
 		<div class="container">
 			<div class="row justify-content-center pb-3 mt-5 pt-5">
-				<div class="col-md-7 heading-section text-center ftco-animate">
+				<div class="col-md-7 heading-section text-center ftco-animate" id="mes">
 					<h2 class="mb-4">Aniversariantes do Mês</h2>
 					<p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-					<p class="mt-5">Agosto</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col">
-					<div class="pricing-entry d-flex ftco-animate">
-						<div class="img" name="icone-aniversario"></div>
-						<div class="desc pl-3">
-							<div class="d-flex text align-items-center">
-								<h3>Wellington Oliveira</h3>
-								<h3 class="dia">1</h3>
-							</div>
-						</div>
-					</div>
-					<div class="pricing-entry d-flex ftco-animate">
-						<div class="img" name="icone-aniversario"></div>
-						<div class="desc pl-3">
-							<div class="d-flex text align-items-center">
-								<h3>João Carlos Coppe</h3>
-								<h3 class="dia"> 4</h3>
-							</div>
-						</div>
-					</div>
-					<div class="pricing-entry d-flex ftco-animate">
-						<div class="img" name="icone-aniversario"></div>
-						<div class="desc pl-3">
-							<div class="d-flex text align-items-center">
-								<h3>Silvia Rodrigues</h3>
-								<h3 class="dia"> 4</h3>
-							</div>
-						</div>
-					</div>
-					<div class="pricing-entry d-flex ftco-animate">
-						<div class="img" name="icone-aniversario"></div>
-						<div class="desc pl-3">
-							<div class="d-flex text align-items-center">
-								<h3>Reginaldo De Deus Casari</h3>
-								<h3 class="dia"> 11</h3>
-							</div>
-						</div>
-					</div>
-					<div class="pricing-entry d-flex ftco-animate">
-						<div class="img" name="icone-aniversario"></div>
-						<div class="desc pl-3">
-							<div class="d-flex text align-items-center">
-								<h3>Saulo José de Santana</h3>
-								<h3 class="dia"> 16</h3>
-							</div>
-						</div>
-					</div>
-					<div class="pricing-entry d-flex ftco-animate">
-						<div class="img" name="icone-aniversario"></div>
-						<div class="desc pl-3">
-							<div class="d-flex text align-items-center">
-								<h3>Ricardo Martins Rico</h3>
-								<h3 class="dia"> 18</h3>
-							</div>
-						</div>
-					</div>
-					<div class="pricing-entry d-flex ftco-animate">
-						<div class="img" name="icone-aniversario"></div>
-						<div class="desc pl-3">
-							<div class="d-flex text align-items-center">
-								<h3>Fábio Barboza</h3>
-								<h3 class="dia"> 22</h3>
-							</div>
-						</div>
-					</div>
-					<div class="pricing-entry d-flex ftco-animate">
-						<div class="img" name="icone-aniversario"></div>
-						<div class="desc pl-3">
-							<div class="d-flex text align-items-center">
-								<h3>Mauro Aparecido da Cunha</h3>
-								<h3 class="dia"> 31</h3>
-							</div>
-						</div>
-					</div>
+				<div class="col" id="coluna">
+					
 				</div>
 			</div>
 		</div>
@@ -580,12 +506,13 @@
   
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-  
-	<script src="js/aniversariante.js"></script>
+
+	<script type="json" src="js/json/agosto.json"></script>
+	<script src="js/birthday-index.js"></script>
+	<script type="module" src="js/birthday.js"></script>
+	<script src="js/birthday-icon.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/jquery.stellar.min.js"></script>
@@ -596,8 +523,6 @@
 	<script src="js/bootstrap-datepicker.js"></script>
 	<script src="js/jquery.timepicker.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 	  
 	</body>
