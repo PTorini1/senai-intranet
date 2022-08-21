@@ -9065,16 +9065,171 @@ textarea.form-control {
     background-attachment: fixed;
   }
 
-  @media (min-width:1000px){
-    .tituloCursos{
-      height:100px !important;
-  
+  @media (min-width:767.98px){
+      .alinhaTituloCurso{
+        height: 100px !important;
+        display: table-cell !important;
+        vertical-align: middle !important;
+        width: 33.33333% !important;
+      }
+      .alinhaDiv{
+        height:33.33333% !important;
+      }
+      .alinhaParagrafo{
+        height: 378px!important;
+        width:  100% !important;
+      }
     }
+  @media (min-width:890px){
+      .alinhaParagrafo{
+        height: 300px!important;
+      }
+    }
+  @media (min-width:991.98px){
+      .alinhaParagrafo{
+        height: 600px !important;
+      }
+    }
+  @media (min-width:1050px){
+      .alinhaParagrafo{
+        height: 500px!important;
+      }
+    }
+  @media (min-width:1100px){
+      .alinhaParagrafo{
+        height: 450px!important;
+      }
+    }
+  @media (min-width:1199.98px){
+      .alinhaParagrafo{
+        height: 360px!important;
+      }
+    }
+  @media (min-width:1400px){
+      .alinhaParagrafo{
+        height: 300px!important;
+      }
+    }
+  @media (min-width:1650px){
+      .alinhaParagrafo{
+        height: 250px!important;
+      }
+    }
+
+
+  @media (min-width:767.98px){
+      .alinhaTituloCurso1{
+        height: 100px !important;
+        display: table-cell !important;
+        vertical-align: middle !important;
+        width: 33.33333% !important;
+      }
+      .alinhaDiv1{
+        height:33.33333% !important;
+      }
+      .alinhaParagrafo1{
+        height: 450px!important;
+        width:  100% !important;
+      }
+    }
+  @media (min-width:890px){
+      .alinhaParagrafo1{
+        height: 400px!important;
+      }
+    }
+  @media (min-width:991.98px){
+      .alinhaParagrafo1{
+        height: 650px !important;
+      }
+    }
+  @media (min-width:1050px){
+      .alinhaParagrafo1{
+        height: 570px!important;
+      }
+    }
+  @media (min-width:1100px){
+      .alinhaParagrafo1{
+        height: 500px!important;
+      }
+    }
+  @media (min-width:1119.98px){
+      .alinhaParagrafo1{
+        height: 410px!important;
+      }
+    }
+  @media (min-width:1400px){
+      .alinhaParagrafo1{
+        height: 350px!important;
+      }
+    }
+  @media (min-width:1650px){
+      .alinhaParagrafo1{
+        height: 300px!important;
+      }
+    }
+
+
+  @media (min-width:767.98px){
+      .alinhaTituloCurso0{
+        height: 100px !important;
+        display: table-cell !important;
+        vertical-align: middle !important;
+        width: 33.33333% !important;
+      }
+      .alinhaDiv0{
+        height:33.33333% !important;
+      }
+      .alinhaParagrafo0{
+        height: 350px!important;
+        width:  100% !important;
+      }
+    }
+  @media (min-width:890px){
+      .alinhaParagrafo0{
+        height: 300px!important;
+      }
+    }
+  @media (min-width:991.98px){
+      .alinhaParagrafo0{
+        height: 470px !important;
+      }
+    }
+  @media (min-width:1050px){
+      .alinhaParagrafo0{
+        height: 410px!important;
+      }
+    }
+  @media (min-width:1100px){
+      .alinhaParagrafo0{
+        height: 375px!important;
+      }
+    }
+  @media (min-width:1199.98px){
+      .alinhaParagrafo0{
+        height: 335px!important;
+      }
+    }
+  @media (min-width:1400px){
+      .alinhaParagrafo0{
+        height: 275px!important;
+      }
+    }
+  @media (min-width:1650px){
+      .alinhaParagrafo0{
+        height: 200px!important;
+      }
+    }
+  
+
+
+  
+
+    
     .paragrafoCursos{
       height:300px !important;
     }
     
-  }
+  
 
 @media(max-width: 1000px){
   .desaparece{
@@ -9084,3 +9239,4 @@ textarea.form-control {
   height: 80vh !important;
 }
 }
+
