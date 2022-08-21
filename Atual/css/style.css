@@ -8208,7 +8208,12 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      height: 800px!important;
+      padding: 2em 0; }
+      .elemento{
+        margin-top: -20px;
+      }
+     }
 
 .ftco-bg-dark {
   background: #000; }
@@ -9070,3 +9075,12 @@ textarea.form-control {
     }
     
   }
+
+@media(max-width: 1000px){
+  .desaparece{
+    display:none;
+  }
+.aumenta{
+  height: 80vh !important;
+}
+}
