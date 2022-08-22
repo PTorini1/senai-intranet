@@ -7839,7 +7839,7 @@ border-radius: 50%; }
   .services-wrap .img {
     display: block; }
   .services-wrap .text {
-    background: ;
+    background: white;
     position: relative; }
     .services-wrap .text h3 {
       font-size: 20px; }
