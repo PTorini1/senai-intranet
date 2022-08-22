@@ -9242,3 +9242,6 @@ textarea.form-control {
 }
 }
 
+.alinhaParagrafo, .alinhaParagrafo1, .alinhaParagrafo0{
+  text-align: justify ;
+}
