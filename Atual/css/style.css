@@ -7277,8 +7277,6 @@ body {
     height: 100%;
     width: 100%; }
 
-span {
-  color: #bfbfbf; }
 .black{
   color:black !important;}
 
@@ -7850,7 +7848,7 @@ border-radius: 50%; }
       font-weight: bolder;
       margin-bottom: 0; }
       .services-wrap .text .price span {
-        color: var(--cor1); } 
+        color: var(--cor1) !important; } 
 
 
 .gallery {
@@ -7931,7 +7929,7 @@ border-radius: 50%; }
         padding-right: 20px; }
     .pricing-entry .text .price {
       width: 80px;
-      color: var(--cor1);
+      color: var(--cor1) !important;
       text-align: right;
       background: #121618;
       background: url(../images/bg_4.jpg) no-repeat fixed;
@@ -7958,7 +7956,7 @@ border-radius: 50%; }
   font-size: 16px;
   font-weight: 400; }
   .menu-wrap .text .price span {
-    color: var(--cor1); }
+    color: var(--cor1) !important; }
 
 .ftco-appointment {
   width: 100%;
@@ -9082,7 +9080,7 @@ textarea.form-control {
     }
   @media (min-width:890px){
       .alinhaParagrafo{
-        height: 300px!important;
+        height: 320px!important;
       }
     }
   @media (min-width:991.98px){
@@ -9092,17 +9090,22 @@ textarea.form-control {
     }
   @media (min-width:1050px){
       .alinhaParagrafo{
-        height: 500px!important;
+        height: 460px!important;
       }
     }
   @media (min-width:1100px){
       .alinhaParagrafo{
-        height: 450px!important;
+        height: 427px!important;
       }
     }
   @media (min-width:1199.98px){
       .alinhaParagrafo{
         height: 360px!important;
+      }
+    }
+  @media (min-width:1300px){
+      .alinhaParagrafo{
+        height: 325px!important;
       }
     }
   @media (min-width:1400px){
@@ -9149,12 +9152,17 @@ textarea.form-control {
     }
   @media (min-width:1100px){
       .alinhaParagrafo1{
-        height: 500px!important;
+        height: 512px!important;
       }
     }
-  @media (min-width:1119.98px){
+  @media (min-width:1199.98px){
       .alinhaParagrafo1{
         height: 410px!important;
+      }
+    }
+  @media (min-width:1300px){
+      .alinhaParagrafo1{
+        height: 350px!important;
       }
     }
   @media (min-width:1400px){
@@ -9209,6 +9217,11 @@ textarea.form-control {
         height: 335px!important;
       }
     }
+  @media (min-width:1300px){
+      .alinhaParagrafo0{
+        height: 300px!important;
+      }
+    }
   @media (min-width:1400px){
       .alinhaParagrafo0{
         height: 275px!important;
@@ -9219,17 +9232,6 @@ textarea.form-control {
         height: 200px!important;
       }
     }
-  
-
-
-  
-
-    
-    .paragrafoCursos{
-      height:300px !important;
-    }
-    
-  
 
 @media(max-width: 1000px){
   .desaparece{
