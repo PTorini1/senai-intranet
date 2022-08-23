@@ -21,6 +21,11 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+  <script>
+    function changeDivContent(){
+      document.getElementById("fic").innerHTML = "<div class='col-md-4 text-center'> <div class='menu-wrap'> <a href='#' class='menu-img img mb-4' style=' background-image: url(images/Cursos/CAI_Eletricista_Manutencao_Eletroeletronica.png); ' ></a> <div class='tex alinhaDiv1'> <h3 class='alinhaTituloCurso1'> <a href='#'>Caldeireiro</a> </h3> <p class='alinhaParagrafo1'> O Curso de Aprendizagem Industrial Caldeireiro tem por objetivo proporcionar qualificação profissional na fabricação de peças operando máquinas convencionais e a CNC e montar peças, conjuntos e subconjuntos, seguindo normas técnicas, de qualidade, de segurança no trabalho e de preservação ambiental. </p><p class='price'> <span style='color: #fa4747 ;'>Presencial</span> </p><p> <a href='#' class='btn btn-red btn-outline-red' >Grade</a > </p></div></div></div>";
+    }
+  </script>
 </head>
   <body>
     <nav
@@ -118,7 +123,7 @@
         </div>
       </div>
     </section>
-
+<div style="background-image: url(images/WallpaperBranco.jpg);background-attachment: fixed; background-size: cover;">
     <section class="ftco-menu ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -623,14 +628,14 @@
                         </div>
                       </div>
                       <div class="block-27" style="margin: 0 auto">
-                        <ul>
+                        <ul id="paginacao">
                           <li><a href="#">&lt;</a></li>
-                          <li class="active"><span>1</span></li>
-                          <li><a href="#" onclick="teste()">2</a></li>
-                          <li><a href="#">3</a></li>
-                          <li><a href="#">4</a></li>
-                          <li><a href="#">5</a></li>
-                          <li><a href="#">&gt;</a></li>
+                          <li class="active" id="1"><span>1</span></li>
+                          <li class="active" id="2" onclick="changeDivContent()"><a href="#">2</a></li>
+                          <li class="active" id="3"><a href="#">3</a></li>
+                          <li class="active" id="4"><a href="#">4</a></li>
+                          <li class="active" id="5"><a href="#">5</a></li>
+                          <li class="active"><a href="#">&gt;</a></li>
                         </ul>
                       </div>
                     </div>
@@ -901,7 +906,7 @@
         </div>
       </div>
     </section>
-
+  </div>
     <footer class="ftco-footer ftco-section img">
       <div class="overlay"></div>
       <div class="container">
@@ -994,6 +999,5 @@
       <script src="js/jquery.timepicker.min.js"></script>
       <script src="js/scrollax.min.js"></script>
       <script src="js/main.js"></script>
-      
     </body>
     </html>
