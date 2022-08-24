@@ -9074,7 +9074,7 @@ textarea.form-control {
         height:33.33333% !important;
       }
       .alinhaParagrafo{
-        height: 378px!important;
+        height: 390px!important;
         width:  100% !important;
       }
     }
@@ -9113,7 +9113,7 @@ textarea.form-control {
         height: 300px!important;
       }
     }
-  @media (min-width:1650px){
+  @media (min-width:1600px){
       .alinhaParagrafo{
         height: 250px!important;
       }
@@ -9137,7 +9137,7 @@ textarea.form-control {
     }
   @media (min-width:890px){
       .alinhaParagrafo1{
-        height: 400px!important;
+        height: 375px!important;
       }
     }
   @media (min-width:991.98px){
@@ -9170,9 +9170,9 @@ textarea.form-control {
         height: 350px!important;
       }
     }
-  @media (min-width:1650px){
+  @media (min-width:1600px){
       .alinhaParagrafo1{
-        height: 300px!important;
+        height: 280px!important;
       }
     }
 
@@ -9227,9 +9227,14 @@ textarea.form-control {
         height: 275px!important;
       }
     }
-  @media (min-width:1650px){
+  @media (min-width:1500px){
       .alinhaParagrafo0{
-        height: 200px!important;
+        height: 245px!important;
+      }
+    }
+  @media (min-width:1600px){
+      .alinhaParagrafo0{
+        height: 215px!important;
       }
     }
 
@@ -9244,4 +9249,8 @@ textarea.form-control {
 
 .alinhaParagrafo, .alinhaParagrafo1, .alinhaParagrafo0{
   text-align: justify ;
+}
+
+.remove{
+  display:none;
 }
