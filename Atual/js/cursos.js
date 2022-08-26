@@ -51,6 +51,25 @@ for(let x = 0; x < cursos.length; x++){
     div3.appendChild(link2)
 }
 
+let num_botoes = cursos.length/9 
+let pag = document.getElementById("botoes-pagina")
+let esquerda =document.createElement("li")
+esquerda.innerHTML = "<a>&lt;</a>"
+pag.appendChild(esquerda)
+let direita =document.createElement("li")
+direita.innerHTML = "<a>&gt;</a>"
+
+
+for(let x = 1; x < num_botoes + 1; x++){
+    let link23 = document.createElement("li")
+    link23.innerHTML = `<a>${x}</a>`
+    link23.onclick = trocaConteudo(x)
+    link23.id = `${x}`
+    pag.appendChild(link23)
+}
+
+pag.appendChild(direita)
+
 function trocaConteudo(a){
     let ewr = document.getElementById(a)
     ewr.className = "active"
@@ -70,20 +89,3 @@ function trocaConteudo(a){
         fc.className = "remove"
     }
 }
-
-let num_botoes = cursos.length/9 
-let pag =document.getElementById("botoes-pagina")
-let esquerda =document.createElement("li")
-esquerda.textContent = "&lt;"
-let direita =document.createElement("li")
-direita.textContent = "&lt;"
-
-pag.appendChild(esquerda)
-
-for(let x = 1; x < num_botoes; x++){
-    let link23 = document.createElement("li")
-    link23.id = `${x}`
-    pag.appendChild(link23)
-}
-
-pag.appendChild(direita)
