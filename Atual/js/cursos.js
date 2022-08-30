@@ -59,10 +59,14 @@ for(let y = 0; y < 2; y++){
         link1.className = "menu-img img mb-4"
         link1.style = `background-image: url(${cursos[x].Imagem});`
 
+
         let link2 = document.createElement("a")
         link2.className = "btn btn-red btn-outline-red mb-5"
-        link2.textContent = "Grade"
-        
+        link2.textContent = "Plano de Curso"
+        let link3 = document.createElement("a")
+        link3.className = "btn btn-red btn-outline-red mb-5"
+        link3.textContent = "Plano de Ensino"
+        link3.style= "margin-left: 10px"
         let p1 = document.createElement("p")
         p1.style = "text-align: justify;"
         p1.textContent =  cursos[x].Descrição
@@ -79,6 +83,7 @@ for(let y = 0; y < 2; y++){
         div3.appendChild(p1)
         div3.appendChild(p2)
         div3.appendChild(link2)
+        div3.appendChild(link3)
 
         g++
     }
