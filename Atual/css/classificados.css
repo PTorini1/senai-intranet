@@ -1,0 +1,133 @@
+.container-class{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(auto);
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.prod-name{
+    font-size: 2.5rem;
+    font-weight: bold;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 3%;
+}
+.prod-price{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+.prod-price{
+    
+    width: 9rem;
+    height: 4rem;
+    background-color: aquamarine;
+    border-radius: 45px;
+    text-align: center;
+    padding-top: 1rem;
+    margin-left: 60%;
+   
+}
+
+.contentSlideShow{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    position: relative;
+    
+    display: block;
+    margin-left: 3%;
+    
+    width: 575px;
+    height: 325px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.navegation{
+    position: absolute;  
+    bottom: 10px;
+    left: 80%;
+    transform: translate(-100%);
+    display: flex;
+   
+}
+.bar{
+    width: 70px;
+    height: 17px;
+
+    border: 3px solid rgb(0, 0, 0);
+
+    background-color: rgba(220, 195, 195, 0.742) ;
+
+    margin: 6px; /*faz o margin entre bar*/
+   
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bar:hover{
+    background-color: var(--gray);
+}
+
+.slids input{
+    display: none;
+}
+.slids{
+    display: flex; /*faz ccom q as imagens fiquem lado a lado no div slideshow*/
+    width: 400%;
+    height: 100%;   
+}
+
+.slid{
+    display: flex;
+    width: 25%;
+    transition: .6s;
+}
+.slide img{
+    width: 575px;
+    height: 325px;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -25%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -50%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -75%;
+}
+
+#slide5:checked ~ .s2{
+    margin-left: 0;
+}
+#slide6:checked ~ .s2{
+    margin-left: -25%;
+}
+#slide7:checked ~ .s2{
+    margin-left: -50%;
+}
+#slide8:checked ~ .s2{
+    margin-left: -75%;
+}
+
+
+.contact-seller{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.infos-seller{
+    text-align: center;
+}
+.prod-description{
+    padding-top: 10%;
+    padding-right: 5%;
+}
