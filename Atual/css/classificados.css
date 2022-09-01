@@ -5,9 +5,11 @@
     width: 100%;
     justify-content: center;
     margin: 0 auto;
-
-    margin-top: 5%;
-    margin-bottom: 10%;
+/*     box-shadow: 1PX 1PX 10PX rgba(0, 0, 0, 0.178); */
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
 }
 .prod-name{
     font-size: 2.5rem;
@@ -22,10 +24,9 @@
     
 }
 .prod-price{
-    
     width: 9rem;
     height: 4rem;
-    background-color: aquamarine;
+    background-color: rgb(255, 111, 111);
     border-radius: 45px;
     text-align: center;
     padding-top: 1rem;
@@ -45,29 +46,23 @@
     height: 325px;
 
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
 .navegation{
     position: absolute;  
-    bottom: 10px;
-    left: 80%;
-    transform: translate(-100%);
-    display: flex;
-   
+    bottom: 100px;
+    left: 100%;
+    transform: translate(-100%);    
 }
 .bar{
-    width: 70px;
-    height: 17px;
-
-    border: 3px solid rgb(0, 0, 0);
-
-    background-color: rgba(220, 195, 195, 0.742) ;
-
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 8, 0) ;
     margin: 6px; /*faz o margin entre bar*/
-   
-    border-radius: 20px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -129,5 +124,10 @@
 }
 .prod-description{
     padding-top: 10%;
+    text-align: justify;
     padding-right: 5%;
+}
+
+main{
+    padding: 0vw 10vw;
 }
