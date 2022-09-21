@@ -34,7 +34,7 @@
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
+  --breakpoint-lg: 1210px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
@@ -472,7 +472,7 @@ pre {
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1210px) {
     .container {
       max-width: 960px; } }
   @media (min-width: 1200px) {
@@ -1029,7 +1029,7 @@ pre {
   .offset-md-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1210px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1533,7 +1533,7 @@ pre {
     .table-responsive-md > .table-bordered {
       border: 0; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1210px) {
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -3383,13 +3383,13 @@ input[type="button"].btn-block {
     .navbar-expand-md .navbar-toggler {
       display: none; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1210px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1210px) {
   .navbar-expand-lg {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -4474,7 +4474,7 @@ button.close {
   .modal-sm {
     max-width: 300px; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1210px) {
   .modal-lg {
     max-width: 800px; } }
 
@@ -5166,7 +5166,7 @@ button.bg-dark:focus {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1210px) {
   .d-lg-none {
     display: none !important; }
   .d-lg-inline {
@@ -5676,7 +5676,7 @@ button.bg-dark:focus {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1210px) {
   .flex-lg-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -5949,7 +5949,7 @@ button.bg-dark:focus {
   .float-md-none {
     float: none !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1210px) {
   .float-lg-left {
     float: left !important; }
   .float-lg-right {
@@ -6687,7 +6687,7 @@ button.bg-dark:focus {
   .mx-md-auto {
     margin-left: auto !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1210px) {
   .m-lg-0 {
     margin: 0 !important; }
   .mt-lg-0,
@@ -7095,7 +7095,7 @@ button.bg-dark:focus {
   .text-md-center {
     text-align: center !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1210px) {
   .text-lg-left {
     text-align: left !important; }
   .text-lg-right {
@@ -7241,9 +7241,9 @@ a.text-dark:hover, a.text-dark:focus {
   @page {
     size: a3; }
   body {
-    min-width: 992px !important; }
+    min-width: 1210px !important; }
   .container {
-    min-width: 992px !important; }
+    min-width: 1210px !important; }
   .navbar {
     display: none; }
   .badge {
@@ -7297,7 +7297,7 @@ h1, h2, h3, h4, h5,
   background: #fff !important;
   z-index: 3;
   color: grey; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1210px) {
     .ftco-navbar-light {
       background: #fff !important;
       position: relative; } }
@@ -7330,7 +7330,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     margin-left: 20px;
     padding-left: 20px; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1210px) {
       .ftco-navbar-light .navbar-nav > .nav-item.ftco-seperator {
         padding-left: 0;
         margin-left: 0; } }
@@ -7342,7 +7342,7 @@ h1, h2, h3, h4, h5,
       left: 0;
       width: 2px;
       background: #fff; }
-      @media (max-width: 991.98px) {
+      @media (max-width: 1210px) {
         .ftco-navbar-light .navbar-nav > .nav-item.ftco-seperator:before {
           display: none; } }
   @media (max-width: 767.98px) {
@@ -7404,7 +7404,7 @@ h1, h2, h3, h4, h5,
         display: inline-block; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
       border-color: var(--cor4); }
-    @media (max-width: 991.98px) {
+    @media (max-width: 1210px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
         border-radius: 0px;
@@ -7514,7 +7514,7 @@ h1, h2, h3, h4, h5,
         color: #fff;
         height: 60vh;
         text-align: right; }
-        @media (min-width: 992px) {
+        @media (min-width: 1210px) {
           .owl-carousel.home-slider .slider-item .slider-text .order-md-last {
             text-align: center !important; } }
         @media (max-width: 767.98px) {
@@ -7535,7 +7535,7 @@ h1, h2, h3, h4, h5,
             color: #fff;
             font-family: "Josefin Sans", Arial, sans-serif;
             font-size: 50px; }
-          @media (max-width: 991.98px) {
+          @media (max-width: 1210px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               font-size: 30px; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
@@ -7824,7 +7824,7 @@ border-radius: 50%; }
 .services-wrap {
   width: 100%;
   display: block; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1210px) {
     .services-wrap {
       margin-bottom: 30px; } }
   .services-wrap .img, .services-wrap .text {
@@ -7928,7 +7928,7 @@ border-radius: 50%; }
       background: url(../images/bg_4.jpg) no-repeat fixed;
       font-size: 10px; }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1210px) {
   .ftco-menu .f-menu-img {
     height: 300px; } }
 
@@ -8497,7 +8497,7 @@ textarea.form-control {
     -webkit-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     transform: rotate(135deg); }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1210px) {
     .ftco-counter .counter-wrap {
       margin-bottom: 40px !important; } }
   .ftco-counter .ftco-number {
@@ -9075,7 +9075,7 @@ textarea.form-control {
         height: 320px!important;
       }
     }
-  @media (min-width:991.98px){
+  @media (min-width:1210px){
       .alinhaParagrafo{
         height: 600px !important;
       }
@@ -9132,7 +9132,7 @@ textarea.form-control {
         height: 375px!important;
       }
     }
-  @media (min-width:991.98px){
+  @media (min-width:1210px){
       .alinhaParagrafo1{
         height: 650px !important;
       }
@@ -9189,7 +9189,7 @@ textarea.form-control {
         height: 300px!important;
       }
     }
-  @media (min-width:991.98px){
+  @media (min-width:1210px){
       .alinhaParagrafo0{
         height: 470px !important;
       }
@@ -9254,4 +9254,9 @@ textarea.form-control {
 
 .dropdown-toggle{
   color: gray !important;
+}
+
+.text span{
+  color: var(--cor1);
+  font-size: 18px !important;
 }
