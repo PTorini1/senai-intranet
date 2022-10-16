@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-item{
+    width: 45vw;
+    margin: 20px;
+    text-align: justify;
+}
+
+.img-flex{
+    width: 100%;
+}
+
+.amrgin-top{
+    margin-top: 85px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    .flex-item{
+        width: 90vw;
+    }
+}
