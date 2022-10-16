@@ -11,6 +11,32 @@
     padding: 20px;
     border-radius: 5px;
 }
+
+.class-container{
+    display: flex;
+}
+
+form{
+    margin: 10px;
+}
+
+.desc{
+    
+}
+
+.class-info{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.class-desc{
+    margin: 10px 0px;
+    text-align: justify;
+    padding: 10px;
+    border: 1px solid black;
+}
+
 .prod-name{
     font-size: 2.5rem;
     font-weight: bold;

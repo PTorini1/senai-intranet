@@ -4,25 +4,18 @@
     <title>Classificados</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
-
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/ionicons.min.css">
-
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
-    
     <link rel="stylesheet" href="css/classificados.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
@@ -121,7 +114,53 @@
     </section>
     
    <main>
-     <div class="container-class">
+    <form action="">
+      <h1>FORMULÁRIO</h1><h6>PARA CADASTRO DO VENDEDOR</h6>
+      <label for="nNome">Nome: </label> <input type="text" id="nNome" size="40" required>
+      <label for="nTelefone">Telefone: </label> <input type="tel" id="nTelefone" required>
+      <label for="nTelefone">Email: </label> <input type="email" id="nEmail" size="50" required><hr>
+      <h6>PARA CADASTRO DO PRODUTO</h6>
+      <label for="nNomeProduto">Nome do Produto: </label> <input type="text" id="nNomeProduto" size="40" required>
+      <label for="nValor">Valor: </label> <input type="number" id="nValor" required><hr>
+      <textarea id="nDesc" cols="30" placeholder="Descrição do Produto" style="width: 100%;"></textarea><br>
+      <input type="submit" value="Enviar Produto" class="btn btn-dark">
+    </form>
+
+    <h1>PRODUTOS</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="class-container">
+            <div class="class-info">
+              <h6>VENDEDOR</h6> <p>Rafael Leite da Silva</p>
+              <h6>TELEFONE</h6> <p> (11) 99972-8065</p>
+              <h6>EMAIL</h6> <p>rafael.leite.14@hotmail.com</p>
+            </div>
+            <div class="class-desc">
+              <h6>PRODUTO</h6> <p>Notebook Odyssey</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel laudantium placeat obcaecati, quibusdam, totam pariatur hic cupiditate ipsa sint nihil sed officiis, nemo at. Fugiat eos magni laudantium beatae soluta!</p>
+              <h6>VALOR</h6> <p>R$2500,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="class-container">
+            <div class="class-info">
+              <h6>VENDEDOR</h6> <p>Rafael Leite da Silva</p>
+              <h6>TELEFONE</h6> <p> (11) 99972-8065</p>
+              <h6>EMAIL</h6> <p>rafael.leite.14@hotmail.com</p>
+            </div>
+            <div class="class-desc">
+              <h6>PRODUTO</h6> <p>Notebook Odyssey</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel laudantium placeat obcaecati, quibusdam, totam pariatur hic cupiditate ipsa sint nihil sed officiis, nemo at. Fugiat eos magni laudantium beatae soluta!</p>
+              <h6>VALOR</h6> <p>R$2500,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- <div class="container-class">
         <h2 class="prod-name">Palio 2014</h2>
         <h3 class="prod-price">R$ 15.300.999</h3>
         <div class="contentSlideShow">
@@ -204,7 +243,7 @@
           <a href="mailto:emanuelrocha831@gmail.com">Enviar E-mail</a>
         </div>
       </div>
-      </div>
+      </div> -->
    </main>
 
     <footer class="ftco-footer ftco-section img">
