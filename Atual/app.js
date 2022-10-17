@@ -1,11 +1,10 @@
 const express = require('express')
-var favicon = require('serve-favicon');
-var path = require('path')
 const app = express()
+const db = require('./models/db')
 
 app.set('view engine', 'ejs')
 
-app.get("/home", async(req, res) => {
+app.get("/", async(req, res) => {
     res.render("home");
 })
 
