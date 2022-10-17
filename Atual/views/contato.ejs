@@ -1,5 +1,75 @@
 <%- include('head'); -%>
 <%- include('header'); -%>
+<section class="home-slider owl-carousel img" style="background-image: url(images/telefone.jpg);">
+    
+    <div class="slider-item" style="background-image: url(images/telefone.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row slider-text justify-content-center align-items-center">
+                
+                <div class="col-md-7 col-sm-12 text-center ftco-animate">
+                    <h1 class="mb-3 mt-5 bread">Contato</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contato</span></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="ftco-section contact-section" style="background-image: url(images/WallpaperBranco.jpg);background-attachment: fixed; background-size: cover;">
+    <div class="container mt-5">
+        <div class="row block-9">
+            <div class="col-md-4 contact-info ftco-animate">
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <h2 class="h4">Informações para Contato</h2>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <p><span>Endereço:</span> Rua Guatemala, 19 - Jardim Canhema - Diadema/SP</p>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <p><span>Telefone:</span> <a href="tel://1234567920">(11)4070-8950 </a></p>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <p><span>Email:</span> <a href="mailto:senaidiadema@sp.senai.br">senaidiadema@sp.senai.br</a></p>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <p><span>Site:</span> <a href="https://diadema.sp.senai.br/">diadema.sp.senai.br</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6 ftco-animate">
+                <form class="contact-form" action="https://formsubmit.co/mayara.ferreira@sp.senai.br" method="POST">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="Nome" placeholder="Seu nome">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="Email" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="Assunto" placeholder="Assunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id="" cols="30" rows="7" class="form-control" name="Mensagem" placeholder="Mensagem"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary py-3 px-5"> Enviar</button>
+                    </div>
+                    
+                    <input type="hidden" name="_next" value="https://diadema.sp.senai.br/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 <%- include('footer'); -%>
 <%- include('scripts'); -%>

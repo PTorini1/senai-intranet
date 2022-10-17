@@ -1,7 +1,8 @@
 .flex{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 10px;
     width: 100%;
 }
 
@@ -13,6 +14,10 @@
 
 .img-flex{
     width: 100%;
+}
+
+.start{
+    margin-top:0px;
 }
 
 .amrgin-top{
