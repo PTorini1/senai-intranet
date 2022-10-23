@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
-const classificados = require('./models/classificados')
 
 //forma de ler JSON / middlewares
 app.use(
@@ -26,26 +25,8 @@ app.get("/cadastrar", async(req, res) => {
     res.render("cadastrar");
 })
 
-app.post("/cadastrarPost", async(req, res) => {
-    console.log(req.body); // o conteúdo do corpo do formulário
-
-    const {nomeVendedor, tel,email,nomeProduto,precoProduto,data,descricao,status_venda} = req.body
-
-    const cadastro = {
-        nomeVendedor, tel,email,nomeProduto,precoProduto,data,descricao,status_venda
-    }
-
-    if(!nomeVendedor){
-        res.status(422).json({error: 'O nome é obrigatório!'})
-    }
-
-    try{
-        await classificados.create(cadastro)
-        res.render('cadastrar')
-    }catch(error){
-        res.status(500).json({error: error})
-    }
-})
+const classificadosRoute = require('./routes/classificadosRoute')
+app.use('/cadastrarPost', classificadosRoute)
 
 app.get("/classificados", async(req, res) => {
     res.render("classificados");
