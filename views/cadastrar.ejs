@@ -1,0 +1,30 @@
+<%- include('head'); -%>
+<%- include('header'); -%>
+<section class="home-slider owl-carousel img" style="background-image: url(images/Classificados.jpg);">
+    <div class="slider-item" style="background-image: url(images/Classificados.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row slider-text justify-content-center align-items-center">
+                <div class="col-md-7 col-sm-12 text-center ftco-animate">
+                    <h1 class="mb-3 mt-5 bread">Classificados</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Classificados</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<main>
+    <form action="/cadastrarPost" method="POST" class="form-cadastro">
+        <h1>FORMULÁRIO</h1>
+        <label for="nNome">Nome do Vendedor: </label> <input type="text" name="nomeVendedor" required><br>
+        <label for="nTelefone">Telefone: </label> <input type="tel" name="tel" required><br>
+        <label for="nTelefone">Email: </label> <input type="email" name="email" size="50"><br>
+        <label for="nNomeProduto">Nome do Produto: </label> <input type="text" id="nome" name="nomeProduto" required><br>
+        <label for="nValor">Valor: </label> <input type="number" id="valor" name="precoProduto" required><hr>
+        <textarea id="nDesc" cols="30" placeholder="Descrição do Produto" style="width: 100%;" name="descricao"></textarea><br>
+        <input type="text" name="state_venda" id="status_venda" style="display: none;" value="false">
+        <div style="text-align: center;"><input type="submit" value="Enviar Produto" class="btn btn-dark enviar"></div>
+    </form>
+</main>
+<%- include('footer'); -%>
+<%- include('scripts'); -%>
