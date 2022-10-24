@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
+const path = require('path')
 
 //forma de ler JSON / middlewares
 app.use(
@@ -28,9 +29,9 @@ app.get("/cadastrar", async(req, res) => {
 const classificadosRoute = require('./routes/classificadosRoute')
 app.use('/cadastrarPost', classificadosRoute)
 
-app.get("/classificados", async(req, res) => {
-    res.render("classificados");
-})
+const classRoute = require('./routes/classRoute')
+app.use('/classificados', classRoute)
+
 
 app.get("/cursos", async(req, res) => {
     res.render("cursos");

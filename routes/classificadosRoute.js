@@ -12,22 +12,25 @@ router.post("/", async(req, res) => {
 
     if(!nomeVendedor){
         res.status(422).json({error: 'O nome é obrigatório!'})
+        return
     }
 
     try{
         await classificados.create(cadastro)
-        res.send('Produto cadastrado com sucesso!')
+        res.render('cadastrado')
     }catch(error){
         res.status(500).json({error: error})
     }
 })
 
 router.get("/", async(req, res) => {
+    //extrair dados da requisição
     try{
-        const elementos = await classificados.find()
-        res.status(200).json(elementos)
+        const classificado = await classificados.find()
+
+        res.render('classificados') 
     }catch(error){
-        res.status(500).json({error: error})
+        res.status(500).json({error:error})
     }
 })
 

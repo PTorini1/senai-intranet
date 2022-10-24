@@ -2509,8 +2509,7 @@ input[type="button"].btn-block {
 .dropup .dropdown-menu {
   top: auto;
   bottom: 100%;
-  margin-top: 0;
-  margin-bottom: 0.125rem; }
+  margin-top: 0; }
 
 .dropup .dropdown-toggle::after {
   display: inline-block;
@@ -3182,7 +3181,7 @@ input[type="button"].btn-block {
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff; }
   .nav-tabs .dropdown-menu {
-    margin-top: -1px;
+    margin-top: -10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
@@ -3213,6 +3212,15 @@ input[type="button"].btn-block {
 
 .tab-content > .active {
   display: block; }
+
+.cadastro-finalizado{
+  display: grid;
+  place-items: center;
+}
+
+.main-cadastro{
+  padding-top: 20%;
+}
 
 .navbar {
   position: relative;
@@ -8182,6 +8190,13 @@ textarea.form-control {
 
 .form-cadastro h1{
   text-align: center;
+}
+
+.card{
+  width: 30%;
+  padding: 30px;
+  box-shadow: 0.5px 0.5px 2px #808080;
+  margin: 20px;
 }
 
 .form-cadastro{
