@@ -28,7 +28,7 @@ router.get("/", async(req, res) => {
     try{
         const classificado = await classificados.find()
 
-        res.render('classificados') 
+        res.render('classificados', {classificado}) 
     }catch(error){
         res.status(500).json({error:error})
     }

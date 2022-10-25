@@ -28,6 +28,8 @@ section{
     margin-bottom: 20px;
 }
 
+
+
 @media (max-width: 1000px) {
     .flex-item{
         width: 90vw;

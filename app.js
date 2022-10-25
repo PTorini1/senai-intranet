@@ -32,6 +32,9 @@ app.use('/cadastrarPost', classificadosRoute)
 const classRoute = require('./routes/classRoute')
 app.use('/classificados', classRoute)
 
+const ambienteRoute = require('./routes/ambienteRoute')
+app.use('/ambiente', ambienteRoute)
+
 
 app.get("/cursos", async(req, res) => {
     res.render("cursos");

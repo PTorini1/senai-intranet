@@ -3222,6 +3222,28 @@ input[type="button"].btn-block {
   padding-top: 20%;
 }
 
+.form-ambiente{
+  width: fit-content;
+  margin: auto;
+}
+
+.form-ambiente>input{
+  display: block;
+  width: 100%;
+  margin: 5px 0px;
+}
+.form-ambiente>div>input{
+  text-align: center;
+  width: 200px;
+  margin: 10px 10px;
+}
+.form-ambiente>button{
+  display: block;
+  margin-left: auto;
+  font-size: 16px;
+  width: 200px;
+}
+
 .navbar {
   position: relative;
   display: -webkit-box;
