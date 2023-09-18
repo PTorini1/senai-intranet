@@ -1,3 +1,3 @@
 # Intranet
 
-ptorini1.github.io/Intranet
+https://ptorini1.github.io/senai-intranet/
